@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Biginners</title>
+	<script type="text/javascript">
+		function myFunction(){
+			document.getElementById("head").innerHTML="Hello this is changed  Peragraph";
+		}
+	</script>
+</head>
+<body>
+	<h1 id="header">JavaScript For Beginners........</h1>
+	<h3 id="nav">hello</h3>
+	<h2 id="home">What can JavaScript do?</h2>
+	<button type="button" onclick='document.getElementById("home").innerHTML="Home" '>Click Home</button>
+	<button type="button" onclick='document.getElementById("nav").innerHTML="Navbar" '>Click Nav</button>
+	<button type="button" onclick='document.getElementById("header").innerHTML="Header" '>Click Header</button>
+	<br>
+	<hr>
+	<h4>JavaScript can change the attributes</h4>
+	<button onclick='document.getElementById("rahmanid").src="team india.png"'>Team India Photo </button>
+    <img id="rahmanid" src="twitter.jpg" width="500px" height="300px">
+    <button onclick='document.getElementById("rahmanid").src="rahman.jpeg"'>Rahman Photo</button>
+    <br>
+	<hr>
+	<h4>JavaScript can change the css Style</h4>
+	<p id="css">This is the simple peragrapg</p>
+	<button onclick="document.getElementById('css').style.fontSize='40px' ">Click me for change size</button>
+	<br>
+	<hr>
+	<h4 >JavaScript can hide and and show hidden content to  the Html Elements</h4>
+	<h5 id="hide">This content will be hide and will show hdden part of the page after clicking the 'Hide Me' and 'Show Me ' button</h5>
+	<button onclick="document.getElementById('hide').style.display='none' ">Hide Me</button>
+	<button onclick="document.getElementById('hide').style.display='block' ">Show Me</button>
+	<br>
+	<hr>
+	<hr>#F1F1F1
+	<h4>JavScript in Head Tag : </h4>
+	<p id="head">This is simple Peragraph</p>
+	<button type="button" onclick="myFunction()">Chage Paragraph</button>
+
+	<hr>
+
+	<h1 style="background-color: #F1F1F1">A web page  ....</h1>
+
+	<p id="body" >A peragraph .............</p>
+	<button onclick="myFunction1()">Click me for change the peragraph...........</button>
+
+	<script type="text/javascript">
+		function myFunction1(){
+			document.getElementById("body").innerHTML="This the change peragraph with body script";
+		}   
+	</script>
+
+
+
+</body>
+</html>

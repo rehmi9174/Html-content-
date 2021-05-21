@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page....</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style type="text/css">
+		*{
+			margin-left: 0px;
+		}
+		#header{
+		    display: block;
+			border-style:outset;
+
+			border-color: gray;
+			width: 100%;
+			height:90px;
+			background-color:#4caf50;
+		}
+
+		#sidebar{
+			border-style: solid;
+			border-color: gray;
+			width: 15%;
+			height:450px;
+			background-color:orange;
+
+		}
+		#footer{
+			border-style: solid;
+			border-color: gray;
+			width: 100%;
+			height:70px;
+			background-color:gray;
+		}
+
+		#content{
+			position: absolute;
+			border-style: solid;
+			border-color: gray;
+
+			width: 84.1%;
+			height:450px;
+			margin-top: -532px;
+			margin-left: 206px;
+
+			background-color:rgb(221,204,204);
+
+		}
+
+		li{
+			display: inline-block;
+			font-size: 22px;
+			color: white;
+			word-spacing:10px;
+			margin : 20px;
+
+		}
+		li:hover{
+			background-color: gray;
+		}
+		select{
+			width: 20px;
+			border-style: solid white;
+			
+		
+			background-color: #4caf50;
+			color: white;
+		    text-decoration: none;
+		    
+		}
+		option{
+
+			background-color: gray;
+			padding: 10px;
+			color:white;
+			font-size: 20px;
+			border-style: solid;
+			border-color: white;
+
+		}
+		select:hover{
+			background-color: blue;
+
+		}
+		li i{
+			
+			margin-right: 1px;
+			margin-left: 10px;
+
+			
+		}
+		ol#two{
+			background-color: gray;
+			color: black;
+			display: block;
+		}
+
+		
+	</style>
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+	   <ul>
+	   	<li><i class="material-icons" >home</i> Home</li> |
+	   	<li><i class="material-icons">computer</i> Courses
+            <select>
+            	<option>BackEnd</option>
+            	<option>HTML</option>
+            	<option>CSS</option>
+            	<option>JAVASCRIPT</option>
+            	<option>BOOTSTRAP</option>
+            	<option>JQUERRY</option>
+            </select>
+	   	</li>|
+	   	<li><i class="material-icons">chrome_reader_mode</i> Servives</li>|
+	   	<li><i class="material-icons">queue_play_next</i> Free Tutorials</li>|
+	   	<li><i class="material-icons">recent_actors</i> Contact Us</li>
+	   </ul>
+	</div>
+	<div id="sidebar">
+         <ul>
+         	<li>Html</li>
+         	<li>CSS</li>
+         	<li>JavaScript</li>
+         	<li>BootStrap</li>
+         	<li>NodeJs</li>
+         </ul>
+	</div>
+	<div id="footer">Footer</div>
+	<div id="content">Content</div>
+
+	<ol id="two">
+		<li>Home </li>
+		<li>Friends</li>
+		<li>Family</li>
+		<li>Contact</li>
+
+	</ol>
+
+
+
+
+</body>
+</html>
